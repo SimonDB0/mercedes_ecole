@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+html,body{
+    height: 100%;
+}
+
+.slide{
+    width: 100%;
+    min-height: 100%;
+    position: relative;
+
+}
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/************* navigation *************/
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+
+#logo img{
+    width: 100px;
+}
+
+nav{
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+
+nav ul{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#burger{
+    width: 50px;
+    height: 40px;
+    margin: auto 20px auto 0;
+    cursor: pointer;
+    display: none;
+}
+
+#burger .bar{
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    margin: 8px 0;
+}
+
+#home{
+    background-color: black;
+    background-image: url("images/backgroud_home.jpeg");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#txt{
+    color: white;
+    width: 150px;
+    height: 60px;
+}
+
+#gal{
+    background-color: black;
+}
+#gal .wrapper{
+    padding-top: 1px;
+    overflow: hidden;
+}
+
+#gal h3{
+    margin-top: 20px;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+}
+
+#galerie{
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+#galerie .ligne{
+    margin-top: 50px;
+}
+
+#galerie .ligne img{
+    margin-left: 100px;
+    filter: grayscale(1);
+    transition: all 1s;
+}
+
+#galerie .ligne img:hover{
+    filter: grayscale(0);
+    transform: scale(1.2);
+}
+#galerie .ligne img{
+    height: 150px;
+    width: 280px;
+}
