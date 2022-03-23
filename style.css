@@ -77,10 +77,10 @@ nav ul li a{
     background-repeat: no-repeat;
     background-position: center center;
 }
-#txt{
+#txt p{
     color: white;
-    width: 150px;
-    height: 60px;
+    z-index: 2;
+    position: absolute;
 }
 
 #gal{
@@ -131,6 +131,7 @@ nav ul li a{
     font-size: 45px;
     color: white;
     text-align: center;
+
 }
 
 #history {
@@ -145,10 +146,11 @@ nav ul li a{
 }
 .info p {
     color: white;
-    text-align: center;
+    text-align: justify;
     justify-content: center;
     margin-top:100px;
     font-size: 30px;
+    margin-left: 30px;
 }
 
 .info img{
@@ -178,12 +180,13 @@ nav ul li a{
     margin-top: 59px;
 }
 
+
+
 #formulaire form{
     text-align: center;
 }
-
 .form-group{
-    margin: 35px 0;
+    margin: 45px 0;
 }
 
 label{
