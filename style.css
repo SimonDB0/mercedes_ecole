@@ -93,7 +93,7 @@ nav ul li a{
 
 #gal h3{
     margin-top: 20px;
-    font-size: 35px;
+    font-size: 45px;
     color: white;
     text-align: center;
 }
@@ -125,11 +125,19 @@ nav ul li a{
 #histoire{
     background-color: black;
 }
-#history {
-    background-color: black;
-    overflow: hidden;
 
+#histoire h3{
+
+    font-size: 45px;
+    color: white;
+    text-align: center;
 }
+
+#history {
+
+    overflow: hidden;
+}
+
 
 .info {
     width: 50%;
@@ -146,9 +154,60 @@ nav ul li a{
 .info img{
     width: 400px;
     height:300px;
-    margin-top: 50%;
-    align-items: center;
-    justify-content: center;
-
-
+    margin-top:150px;
+    margin-left: 150px;
 }
+#contact{
+    background-color:black;
+    background-size: cover;
+    background-position: center center;
+}
+
+#contact h3{
+    font-size: 45px;
+    text-align: center;
+    color:white;
+}
+
+#contact .wrapper{
+    padding-top: 1px;
+}
+
+#formulaire{
+    padding: 20px;
+    margin-top: 59px;
+}
+
+#formulaire form{
+    text-align: center;
+}
+
+.form-group{
+    margin: 35px 0;
+}
+
+label{
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+}
+input{
+    width: 500px;
+    height: 30px;
+    font-size: 25px;
+}
+
+textarea{
+    width: 620px;
+    height: 320px;
+    resize: none;
+    padding: 10px;
+    font-size: 25px;
+}
+
+input[type=submit]
+{
+    width: 150px;
+    height: 35px;
+}
+
